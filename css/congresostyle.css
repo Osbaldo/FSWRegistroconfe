@@ -1,0 +1,7 @@
+strong { 
+    color: limegreen;
+}
+tr:nth-child(even) {
+    background-color: yellowgreen;
+}
+
