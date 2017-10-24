@@ -1,25 +1,42 @@
 function pushRegModal() {
   const modal =
-    '<div id="modalRegistros" class="modal fade">\
-        <div class="modal-dialog" role="document">\
-        <div class="modal-content">\
-            <div class="modal-header">\
-            <h5 class="modal-title">Registrar</h5>\
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">\
-                <span aria-hidden="true">&times;</span>\
-            </button>\
-            </div>\
-            <div class="modal-body">\
-            <label for="matricula">Matricula o Numero De Empleado</label>\
-            <input type="text" class="form-control" id="matricula" placeholder="Matricula">\
-            </div>\
-            <div class="modal-footer">\
-            <div id="cargando"></div>\
-            <button type="button" class="btn btn-primary saveReg">Registrar</button>\
-            </div>\
+    '<div class="modal fade" id="modalRegistros" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">\
+    <div class="modal-dialog" role="document">\
+      <div class="modal-content">\
+        <div class="modal-header">\
+          <h5 class="modal-title" id="exampleModalLabel">New message</h5>\
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">\
+            <span aria-hidden="true">&times;</span>\
+          </button>\
         </div>\
+        <div class="modal-body">\
+          <form>\
+            <div class="form-group">\
+              <label for="Nombre" class="col-form-label">Nombre:</label>\
+              <input type="text" class="form-control" id="Nombre">\
+            </div>\
+            <div class="form-group">\
+            <label for="Corre" class="col-form-label">Correo:</label>\
+            <input type="text" class="form-control" id="Correo">\
+          </div>\
+          <div class="form-group">\
+          <label for="Institucion" class="col-form-label">Institucion:</label>\
+          <input type="text" class="form-control" id="Institucion">\
         </div>\
-    </div>';
+        <div class="form-group">\
+        <p>Indique a que pertenece(Escuela,Industria,Profesor)</p>\
+        <label for="Dependencia" class="col-form-label">Indique cual:</label>\
+        <input type="text" class="form-control" id="Dependencia">\
+      </div>\
+          </form>\
+        </div>\
+        <div class="modal-footer">\
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>\
+          <button type="button" class="btn btn-primary">Enviar</button>\
+        </div>\
+      </div>\
+    </div>\
+  </div>';
 
   $("body").append(modal);
 }
@@ -27,14 +44,17 @@ function pushRegModal() {
 let wait = false;
 $(() => {
   $("body").on("hide.bs.modal", "#modalRegistros", e => {
-    $("#matricula").val("");
+    $("#Nombre").val("");
+    $("#Correo").val("");
+    $("#Institucion").val("");
+    $("#Dependencia").val("");
     $("#cargando").removeClass("cargandoInit");
     $("#statusMessage").remove();
   });
 
   /* Inserta el modal en el DOM y lo muestra*/
 
-  $(".regForm").click(e => {
+  $(".registro").click(e => {
     if ($("#modalRegistros").length == 0) {
       pushRegModal();
     }

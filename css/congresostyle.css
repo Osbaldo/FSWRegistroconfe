@@ -4,4 +4,17 @@ strong {
 tr:nth-child(even) {
     background-color: yellowgreen;
 }
+html {
+    font-size: 20px;
+  }
+  @media (min-width: 320px) {
+    html {
+      font-size: 12px;
+    }
+  }
+  @media (min-width: 720px) {
+    html {
+      font-size: 16px;
+    }
+  }
 

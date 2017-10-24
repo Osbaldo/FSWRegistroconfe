@@ -1,0 +1,36 @@
+ <div class="container">
+    <h2>Welcome</h2>
+    <h3>FIME welcome you to the first International
+      <strong>E</strong>nergy
+      <strong>S</strong>orage and
+      <strong>C</strong>onversion
+      <strong>C</strong>ongress</h3>
+  </div>
+ <!--Segundo bloque de info-->
+
+  <div class="container">
+    <h2>The energy demand increase each year in Mexico and around the world.</h2>
+    <h2>The depletion of fossil fuels leads to the necessity of develop novel systems.</h2>
+    <h2>for
+      <strong>E</strong>nergiy
+      <strong>S</strong>torage and
+      <strong>C</strong>onversion.Furthermore, the technological advances</h2>
+    <h2>also requires of novel systems of
+      <strong>e</strong>nergy
+      <strong>s</strong>torage and
+      <strong>c</strong>onversion to bring</h2>
+    <h2>autonomy to electric vehicles and modern electronic devices</h2>
+  </div>
+
+  <!--Segundo bloque de info-->
+
+  <div class="container">
+    <h2>The first aim of the
+      <strong>E</strong>nergy
+      <strong>S</strong>torage and
+      <strong>C</strong>onversion
+      <strong>C</strong>ongress is to show and</h2>
+    <h2>discuss the advances in the field of Electrochemical Capacitors, Batteries,</h2>
+    <h2>Fuel Cells, Solar Cells and Energy Harvesting. The second aim is to create</h2>
+    <h2>a link between students, scientists and the industry</h2>
+  </div>
