@@ -16,14 +16,38 @@
 
 <body>
   <!--navbar-->
-  <!-- Image and text -->
-  <nav class="navbar navbar-light bg-light">
-    <a class="navbar-brand">
-      <img src="img/logo70aniversario.png" width="35" height="35" class="d-inline-block align-top" alt=""> 70 Aniversario
-    </a>
-  </nav>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      
+      <a class="navbar-brand" href="#">
+          Aniversario
+          <img src="img/logo70aniversario.png" width="30" height="30" alt="">
+        </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#bienvenida">Welcome <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#conferencistas">Lecturer</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Programa">Program</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#ubicacion">Location</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#registros">Registration and Contact</a>
+              </li>
+          </ul>
+      </div>
 
-  <!--carusel-->
+    </nav>
+  <!-- Image and text -->
+    <!--carusel-->
   <div class="container">
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
@@ -67,7 +91,7 @@
     <a class="btn btn-outline-success btn-lg btn-block" href="http://www.fime.uanl.mx/mcion/" role="button">Pagina de Maestria</a>
   </div>
   <!--TextoPruebaDos-->
-  <div class="container">
+  <div class="container" id="bienvenida">
 
     <div class="card">
       <div class="card-body">
@@ -102,7 +126,7 @@
   </div>
   <!--imagenes de conferencistas-->
 
-  <div class="container">
+  <div class="container" id="conferencistas">
     <div class="card-deck">
       <div class="card">
         <img class="card-img-top" src="img/logo70aniversario.png" alt="Card image cap">
@@ -150,7 +174,7 @@
 
   <!--tablas-->
 
-  <div class="container">
+  <div class="container" id="Programa">
     <div class="row">
       <div class="col">
         <table>
@@ -245,7 +269,7 @@
 
   <!--ubicacion-->
 
-  <div class="container">
+  <div class="container" id="ubicacion">
     <br>
     <h3>CIIDIT</h3>
     <h3>Centro de Innovación, Investigación y Desarrollo en Ingeniería y</h3>
@@ -259,7 +283,7 @@
   </div>
   <!--Registro-->
 
-  <div class="container">
+  <div class="container" id="registros">
     <div class="row">
       <div class="col">
         <button id="registro" type="button" class="btn btn-outline-success btn-lg btn-block" data-toggle="modal" data-target="#exampleModal"
