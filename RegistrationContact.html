@@ -15,84 +15,95 @@
 </head>
 
 <body>
+    
 
-    <!--navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <!--navbar -->
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
-        <a class="navbar-brand" href="./index.html">
-            Aniversario
-            <img src="img/logo70aniversario.png" width="30" height="30" alt="">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="./index.html">Welcome                        
+                    <a class="navbar-brand" href="./index.html">
+                        Aniversario
+                        <img src="img/logo70aniversario.png" width="30" height="30" alt="">
                     </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./Lecturer.html">Lecturer</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./Program.html">Program</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./Location.html">Location</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="./RegistrationContact.html">Registration and Contact
-                        <span class="sr-only">(current)</span>
-                    </a>
-                </li>
-            </ul>
-        </div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="./index.html">Welcome
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./Lecturer.html">Lecturer</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./Program.html">Program</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./Location.html">Location</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="./RegistrationContact.html">Registration and Contact
+                                    <span class="sr-only">(current)</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
 
-    </nav>
+                </nav>
+                <div class="container">
+                        <div class="row">
+                            <div class="col-4 col-sm-4">
+                                <img src="./img/LOGO-2017-r2.png" width="250px" height="250px">
+                            </div>
+                            <div class="col-8 col-sm-8">
 
-    <!--Registro-->
+                <!--Registro-->
 
-    <div class="container" id="registros">
-        <div class="row">
-            <div class="col">
-                <button id="registro" type="button" class="btn btn-outline-success btn-lg btn-block" data-toggle="modal" data-target="#registrar">Registro</button>
-            </div>
-            <div class="col">
-                <button id="contacto" type="button" class="btn btn-outline-success btn-lg btn-block" data-toggle="modal" data-target="#contactar">Contacto</button>
+                <div class="container" id="registros">
+                    <div class="row">
+                        <div class="col">
+                            <button id="registro" type="button" class="btn btn-outline-success btn-lg btn-block" data-toggle="modal" data-target="#registrar">Registro</button>
+                        </div>
+                        <div class="col">
+                            <button id="contacto" type="button" class="btn btn-outline-success btn-lg btn-block" data-toggle="modal" data-target="#contactar">Contacto</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Modal-->
+
+                <div class="modal fade bd-example-modal-lg" id="registrar" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc-iwmU6L2ubR68h322R-BfR4MqmuIWusBT1A25bv7tEIxzrg/viewform?embedded=true"
+                                width="auto" height="400" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal fade bd-example-modal-lg" id="contactar" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfll3srwPu6uI9VAXQkoxojTtPziMdjXZGgyp5IPfk4giDN4Q/viewform?embedded=true"
+                                width="auto" height="400" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Fin del grid-->
             </div>
         </div>
     </div>
-
-    <!--Modal-->
-
-    <div class="modal fade bd-example-modal-lg" id="registrar" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc-iwmU6L2ubR68h322R-BfR4MqmuIWusBT1A25bv7tEIxzrg/viewform?embedded=true"
-                    width="auto" height="400" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal fade bd-example-modal-lg" id="contactar" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfll3srwPu6uI9VAXQkoxojTtPziMdjXZGgyp5IPfk4giDN4Q/viewform?embedded=true"
-                    width="auto" height="400" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            </div>
-        </div>
-    </div>
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
