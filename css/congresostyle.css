@@ -18,3 +18,16 @@ html {
     }
   }
 
+  body {
+    max-width: 1200px; margin: 0 auto }
+    
+    div.left {
+    width: 40%; 
+    padding: 0 0 0 5%;
+    float: left}
+    
+    div.content {
+    width: 60%;
+    padding: 0 5%;
+    float: left}
+  
