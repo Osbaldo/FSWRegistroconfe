@@ -32,4 +32,12 @@ html {
     padding: 0 5%;
     float: left
   }
+  .imagenes {
+    width: 70%;
+     height: 50%
+  }
+  .conferencistas {
+    width: 120px;
+     height: 120px
+  }
   
