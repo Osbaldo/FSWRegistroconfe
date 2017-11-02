@@ -1,6 +1,7 @@
 strong { 
     color: limegreen;
 }
+
 tr:nth-child(even) {
     background-color: yellowgreen;
 }
@@ -40,4 +41,3 @@ html {
     width: 130px;
      height: 130px
   }
-  
