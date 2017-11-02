@@ -41,3 +41,9 @@ html {
     width: 130px;
      height: 130px
   }
+  .linksinterest{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-weight: bold
+  }
